@@ -8,7 +8,7 @@ const Miniprop = () => {
                 </div>
                 <div className="mt-6 flex">
                     <div className="w-10 flex flex-col items-center">
-                        <img className="h-10 rounded-full" src="https://cdn.tuk.dev/assets/components/misc/activity-1.png" />
+                        <img className="h-10 rounded-full" src="./barmond.jpg" />
                         <div className="pt-4">
                             <svg width={1} height={40} viewBox="0 0 1 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <line x1="0.5" y1="2.18557e-08" x2="0.499998" y2={47} stroke="#D1D5DB" strokeDasharray="2 2" />
@@ -25,7 +25,7 @@ const Miniprop = () => {
                 </div>
                 <div className="mt-6 flex">
                     <div className="w-10 flex flex-col items-center">
-                        <img className="h-10 rounded-full" src="https://cdn.tuk.dev/assets/components/misc/profile-img-1.png" />
+                        <img className="h-10 rounded-full" src="./Oak_st.jpg" />
                         <div className="pt-4">
                             <svg width={1} height={40} viewBox="0 0 1 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <line x1="0.5" y1="2.18557e-08" x2="0.499998" y2={47} stroke="#D1D5DB" strokeDasharray="2 2" />
@@ -42,7 +42,7 @@ const Miniprop = () => {
                 </div>
                 <div className="mt-6 flex">
                     <div className="w-10 flex flex-col items-center">
-                        <img className="h-10 rounded-full" src="https://cdn.tuk.dev/assets/components/misc/activity-2.png" />
+                        <img className="h-10 rounded-full" src="./shepperd.jpg" />
                         <div className="pt-4">
                             <svg width={1} height={40} viewBox="0 0 1 47" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <line x1="0.5" y1="2.18557e-08" x2="0.499998" y2={47} stroke="#D1D5DB" strokeDasharray="2 2" />

@@ -57,7 +57,6 @@ export default function IndexPage() {
                      {/* Left Side Begins */}
                     <div className="md:w-2/3 w-full pb-6 md:pb-0 md:pr-6">
                       <CurrentTeam />
-                        {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded " />
                     </div>
                     <div className="md:w-1/3 w-full items-center sm:w-full">
@@ -67,7 +66,6 @@ export default function IndexPage() {
                     </div>
                     <div className="md:w-2/3 w-full pb-6 md:pb-0 md:pr-6">
                       <Collaborators />
-                        {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
                         <div className="rounded " />
                     </div>
                     <div>

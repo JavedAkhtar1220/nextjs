@@ -19,8 +19,7 @@ const Activity = () => {
                         <p className="text-sm font-semibold leading-normal text-gray-800">John Stark</p>
                         <p className="text-xs leading-3 text-gray-500 pt-1">2 hours ago</p>
                         <p className="pt-4 text-sm leading-4 text-gray-600">
-                            Changes made to <span className="text-indigo-700">styleguide.fig</span>, icons <br />
-                            updated with v2 colors
+                            Signed in to Job Site <span className="text-indigo-700">#6787 Hasting St</span>, created one report
                         </p>
                     </div>
                 </div>
