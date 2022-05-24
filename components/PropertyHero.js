@@ -61,8 +61,8 @@ const PropertyHero = (props) => {
                                     <p className="text-gray-800 dark:text-gray-100 text-sm xl:text-md leading-5">Asking</p>
                                 </div>
                                 <div className="mr-6 xl:mr-10">
-                                    <h2 className="text-orange-400 dark:text-orange-400 font-bold text-xl xl:text-2xl leading-6 mb-2 text-center">$1.8M</h2>
-                                    <p className="text-gray-800 dark:text-gray-100 text-sm xl:text-md leading-5">Current Bid</p>
+                                    <h2 className="text-gray-700 dark:text-gray-700 font-bold text-xl xl:text-2xl leading-6 mb-2 text-center">1-4</h2>
+                                    <p className="text-gray-800 dark:text-gray-100 text-sm xl:text-md leading-5">Bedrooms</p>
                                 </div>
                                 <div>
                                     <h2 className="text-red-400 dark:text-red-400 font-bold text-xl xl:text-2xl leading-6 mb-2 text-center">18</h2>
