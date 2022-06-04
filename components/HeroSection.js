@@ -5,8 +5,8 @@ function HeroSection() {
         e.preventDefault();
       } */
     return (
-        <div className="relative flex flex-col justify-center h-screen">
-           <Image src="/hero2.svg" layout="fill" objectFit="cover" className="bg-blend-overlay"/>
+        <div className="relative flex flex-col justify-center h-screen bg-black">
+           <Image src="/hero-bg.jpg" layout="fill" objectFit="cover" className="bg-blend-overlay opacity-75"/>
            <div className="relative w-full text-center  text-gray-100">
            <div className="text-5xl font-black">
                <h1>Explore Your City</h1>

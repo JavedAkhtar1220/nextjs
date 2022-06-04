@@ -51,7 +51,7 @@ const Profilehero = (props) => {
                                 </div>
                                 <div className="mr-6 xl:mr-10">
                                     <h2 className="text-gray-600 dark:text-gray-400 font-bold text-xl xl:text-2xl leading-6 mb-2 text-center">60</h2>
-                                    <p className="text-gray-800 dark:text-gray-100 text-sm xl:text-md leading-5">Total Projects</p>
+                                    <p className="text-gray-800 dark:text-gray-100 text-sm xl:text-md leading-5">Past Projects</p>
                                 </div>
                                 <div>
                                     <h2 className="text-gray-600 dark:text-gray-400 font-bold text-xl xl:text-2xl leading-6 mb-2 text-center">300</h2>
@@ -61,7 +61,7 @@ const Profilehero = (props) => {
                             <div className="w-full xl:w-2/3 flex-col md:flex-row justify-center xl:justify-end flex md:pl-6">
                                 <div className="flex items-center justify-center xl:justify-start mt-1 md:mt-0 mb-5 md:mb-0">
                                     <div className="rounded-full bg-[#0199dc] text-white dark:text-white text-sm px-6 py-2 flex justify-center items-center">Connect</div>
-                                    <div className="ml-5 rounded-full bg-green-200 text-green-500 text-sm px-6 py-2 flex justify-center items-center">Available</div>
+                                    <div className="ml-5 rounded-full bg-green-200 text-green-500 text-sm px-6 py-2 flex justify-center items-center">Rate</div>
                                 </div>
                                 <button className="focus:outline-none ml-0 md:ml-5 bg-indigo-700 dark:bg-indigo-600 transition duration-150 ease-in-out hover:bg-indigo-600 rounded text-white px-3 md:px-6 py-2 text-sm">Message</button>
                             </div>

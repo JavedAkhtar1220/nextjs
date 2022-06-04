@@ -24,14 +24,16 @@ export default function IndexPage() {
         <div>
             <Header />
         </div>
+         {/* Top Section */}
         <div>
             <Profilehero />
         </div>
-        {/* Body Begins */}
-         {/* Top Section Begins */}
+        {/* Top Section Ends */}
+        {/* Body Section */}
+        
         <div className="container pt-6 mx-auto">
                 <div className="flex flex-wrap gap-0">
-                     {/* Left Side Begins */}
+                     {/* Left Side */}
                     <div className="md:w-2/3 w-full pb-6 md:pb-0 md:pr-6">
                         <Collab />
                         {/* Remove class [ border-gray-300  dark:border-gray-700 border-dashed border-2 ] to remove dotted border */}
@@ -46,11 +48,13 @@ export default function IndexPage() {
                     </div>
                      {/* Right Side Ends */}
                 </div>
-                {/* Top Section Ends */}
+               
         </div>
+        {/* Stats Section Begins */}
         <div>
             <Stats />
         </div>
+         {/* Stats Section Ends */}
         {/* Individual Section Begins */}
         <div className="container pt-6 mx-auto">
                 <div className="flex flex-wrap gap-0">
@@ -72,7 +76,7 @@ export default function IndexPage() {
                         <Miniprop />
                     </div>
                      {/* Left Side Ends */}
-                     {/* Right Side Begins */}
+                     
                     
                      {/* Right Side Ends */}
                 </div>
@@ -80,18 +84,22 @@ export default function IndexPage() {
         </div>
     
         {/* Individual Section Ends */}
+        {/* Testimonial Section Begins */}
         <div className="xs:hidden">
             <Testimonial />
         </div>
+         {/* Testimonial Section Ends */}
         <div>
             <CurrentProjects />
         </div>
         <div>
             <PastProjects />
         </div>
+        {/* Connect Section Begins */}
         <div>
             <Connect />
         </div>
+        {/* Connect Section Ends */}
          {/* Body Ends */}
         <div className="">
             {/* Footer */}

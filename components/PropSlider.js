@@ -20,9 +20,7 @@ export default function PropSlider() {
   return (
     <div >
       <div className="flex p-5 flex-col items-start lg:items-center justify-between ">
-        <div className="md:auto lg:w-auto md:mx-2 flex justify-center items-center">
-          <h1 className="text-2xl md:text-2xl xl:text-2xl pt-5 font-semibold pl-4">Check Property Images</h1>
-        </div>
+        
         <div className="mainDiv pl-4 md:pl-6 ">
           <div className="h-5 mt-6 mb-4 md:mt-0 lg:mb-0 flex justify-end items-end space-x-6 ">
             <button aria-label="back"  className=" swiper-button-prev">
