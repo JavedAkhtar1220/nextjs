@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from "components/search_result_components/cards/index";
+import Image from "next/image";
 export default function Sales() {
     return (
         <>
@@ -9,7 +10,7 @@ export default function Sales() {
                         <div className="pl-5 py-5">
                             <h1 className="text-xl font-semibold text-gray-700">Seller information</h1>
                             <div className="flex items-center py-5">
-                                <img src="https://cdn.tuk.dev/assets/templates/classified/12.png" className="w-12 h-12 rounded-full" />
+                                <Image src="https://cdn.tuk.dev/assets/templates/classified/12.png" className="w-12 h-12 rounded-full" />
                                 <div className="ml-4">
                                     <h3 className="text-sm text-gray-700">Thomas Geller</h3>
                                     <p className="text-xs text-gray-600">Joined on 12 September 2020</p>
@@ -27,7 +28,7 @@ export default function Sales() {
                             </div>
                         </div>
                         <div className="lg:w-60 lg:mt-0 mt-4">
-                            <img src="https://cdn.tuk.dev/assets/templates/classified/map.png" className="h-full w-full" />
+                            <Image src="https://cdn.tuk.dev/assets/templates/classified/map.png" className="h-full w-full" />
                         </div>
                     </div>
                 </div>

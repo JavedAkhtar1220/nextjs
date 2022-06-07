@@ -12,6 +12,7 @@ import "swiper/css/navigation"
 import SwiperCore, {
   Navigation
 } from 'swiper';
+import Image from "next/image";
 
 // install Swiper modules
 SwiperCore.use([Navigation]);
@@ -26,10 +27,10 @@ export default function Collab() {
         <div className="mainDiv pl-4 md:pl-6 ">
           <div className="h-5 mt-6 mb-4 md:mt-0 lg:mb-0 flex justify-end items-end space-x-6 ">
             <button aria-label="back"  className=" swiper-button-prev">
-              <img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg1.svg" alt="back" />
+              <Image className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg1.svg" alt="back" />
             </button>
             <button aria-label="next"  className=" swiper-button-next">
-              <img className=" transform rotate-180" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg1.svg" alt="next" />
+              <Image className=" transform rotate-180" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg1.svg" alt="next" />
             </button>
           </div>
           <Swiper
@@ -68,7 +69,7 @@ export default function Collab() {
               <SwiperSlide className="swiper-slide shadow-xl mb-10 mt-5  rounded-xl ">
                 <div className="flex flex-col  space-y-5">
                   <div className="rounded-t-xl  group cursor-pointer relative flex justify-center items-center">
-                    <img className="rounded-t-xl  " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_img-1.png" alt="man" />
+                    <Image className="rounded-t-xl  " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_img-1.png" alt="man" />
                   </div>
                   <div className="px-4 py-6 rounded-b-xl w-full flex justify-between  flex-col items-start ">
                     <p className="text-sm leading-none text-gray-600">Martin Collin </p>
@@ -76,7 +77,7 @@ export default function Collab() {
                     <button className="mt-6 hover:-translate-y-1 transition duration-500 ease-in-out flex justify-start items-center space-x-3">
                       <p className="text-sm leading-none text-blue-700">Find out why</p>
                       <div className="w-4 ">
-                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg-2.svg" alt="arrow" />
+                        <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg-2.svg" alt="arrow" />
                       </div>
                     </button>
                   </div>
@@ -85,7 +86,7 @@ export default function Collab() {
               <SwiperSlide className="swiper-slide shadow-xl mb-10 mt-5 rounded-xl ">
                 <div className="flex flex-col  space-y-4">
                   <div className="rounded-t-xl  group cursor-pointer relative flex justify-center items-center">
-                    <img className="rounded-t-xl  " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_img-2.png" alt="chinease man" />
+                    <Image className="rounded-t-xl  " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_img-2.png" alt="chinease man" />
                   </div>
                   <div className="px-4 py-6 rounded-b-xl w-full flex justify-between  flex-col items-start ">
                     <p className="text-sm leading-none text-gray-600">Daniel Shen </p>
@@ -93,7 +94,7 @@ export default function Collab() {
                     <button className="mt-6 hover:-translate-y-1 transition duration-500 ease-in-out flex justify-start items-center space-x-3">
                       <p className="text-sm leading-none text-blue-700">Find out why</p>
                       <div className="w-4 ">
-                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg-2.svg" alt="arrow" />
+                        <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg-2.svg" alt="arrow" />
                       </div>
                     </button>
                   </div>
@@ -102,7 +103,7 @@ export default function Collab() {
               <SwiperSlide className="swiper-slide shadow-xl mb-10 mt-5  rounded-xl ">
                 <div className="flex flex-col  space-y-4">
                   <div className="rounded-t-xl  group cursor-pointer relative flex justify-center items-center">
-                    <img className="rounded-t-xl  " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_img-3.png" alt="woman with camera" />
+                    <Image className="rounded-t-xl  " src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_img-3.png" alt="woman with camera" />
                   </div>
                   <div className="px-4 py-6 rounded-b-xl w-full flex justify-between  flex-col items-start ">
                     <p className="text-sm leading-none text-gray-600">Sandy Walsh</p>
@@ -110,7 +111,7 @@ export default function Collab() {
                     <button className="mt-6 hover:-translate-y-1 transition duration-500 ease-in-out flex justify-start items-center space-x-3">
                       <p className="text-sm leading-none text-blue-700">Find out why</p>
                       <div className="w-4 ">
-                        <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg-2.svg" alt="arrow" />
+                        <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg-2.svg" alt="arrow" />
                       </div>
                     </button>
                   </div>

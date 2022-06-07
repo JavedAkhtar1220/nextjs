@@ -6,12 +6,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation"
+import "swiper/css/navigation";
 
 // import Swiper core and required modules
-import SwiperCore, {
-  Navigation
-} from 'swiper';
+import SwiperCore, { Navigation } from "swiper";
+import Image from "next/image";
 
 // install Swiper modules
 SwiperCore.use([Navigation]);
@@ -21,97 +20,121 @@ export default function CurrentTeam() {
     <div className>
       <div className="flex flex-col items-start lg:items-center justify-between ">
         <div className="md:auto lg:w-auto md:mx-2 flex justify-center items-center">
-          <h1 className="text-xl md:text-xl xl:text-xl font-semibold pl-4">Current <span className="text-blue-700">Teammates</span>.</h1>
+          <h1 className="text-xl md:text-xl xl:text-xl font-semibold pl-4">
+            Current <span className="text-blue-700">Teammates</span>.
+          </h1>
         </div>
         <div className="mainDiv pl-4 md:pl-6 ">
           <div className="h-5 mt-6 mb-4 md:mt-0 lg:mb-0 flex justify-end items-end space-x-6 ">
-            <button aria-label="back"  className=" swiper-button-prev">
-              <img className src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg1.svg" alt="back" />
+            <button aria-label="back" className=" swiper-button-prev">
+              <Image
+                className
+                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg1.svg"
+                alt="back"
+              />
             </button>
-            <button aria-label="next"  className=" swiper-button-next">
-              <img className=" transform rotate-180" src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg1.svg" alt="next" />
+            <button aria-label="next" className=" swiper-button-next">
+              <Image
+                className=" transform rotate-180"
+                src="https://tuk-cdn.s3.amazonaws.com/can-uploader/content_9_svg1.svg"
+                alt="next"
+              />
             </button>
           </div>
           <Swiper
-            slidesPerView={'auto'} slidesPerGroupSkip={3} grabCursor={true} loopFillGroupWithBlank={true} loop={true}
-          navigation={{
-            prevEl: '.swiper-button-prev',
-            nextEl: '.swiper-button-next',
-          }}
-
-          breakpoints={{
-            // when window width is >= 320px
-            "320": {
-            slidesPerView: "2",
-            spaceBetween: 24,
-            },
-            // when window width is >= 480px
-            "480": {
-            slidesPerView: "2",
-            spaceBetween: 24,
-            },
-            // when window width is >= 640px
-            "640": {
-            slidesPerView: "3",
-            spaceBetween: 24,
-            },
-            "1024": {
+            slidesPerView={"auto"}
+            slidesPerGroupSkip={3}
+            grabCursor={true}
+            loopFillGroupWithBlank={true}
+            loop={true}
+            navigation={{
+              prevEl: ".swiper-button-prev",
+              nextEl: ".swiper-button-next",
+            }}
+            breakpoints={{
+              // when window width is >= 320px
+              320: {
+                slidesPerView: "2",
+                spaceBetween: 24,
+              },
+              // when window width is >= 480px
+              480: {
+                slidesPerView: "2",
+                spaceBetween: 24,
+              },
+              // when window width is >= 640px
+              640: {
                 slidesPerView: "3",
-            spaceBetween: 32,
-            },
-            "1336": {
-            slidesPerView: 3,
-            spaceBetween: 32
-            }
-          }}
-           className="swiper mySwiper">
-              <SwiperSlide className="swiper-slide shadow-xl mb-10 mt-5  rounded-xl ">
-                <div className="flex flex-col  space-y-5">
-                  <div className="rounded-t-xl max-h-36 group cursor-pointer relative flex justify-center items-center">
-                    <img className="rounded-t-xl max-h-36 " src="../Mark_Zheng.jpg" alt="Mark Zheng" />
-                  </div>
-                  <div className="px-4 py-6 rounded-b-xl w-full flex justify-between  flex-col items-start ">
-                    
-                    <p className="mt-3 text-base font-semibold leading-none text-gray-800">Mark Zheng</p>
-                    <button className="mt-6 hover:-translate-y-1 transition duration-500 ease-in-out flex justify-start items-center space-x-3">
-                    
-                    </button>
-                  </div>
+                spaceBetween: 24,
+              },
+              1024: {
+                slidesPerView: "3",
+                spaceBetween: 32,
+              },
+              1336: {
+                slidesPerView: 3,
+                spaceBetween: 32,
+              },
+            }}
+            className="swiper mySwiper"
+          >
+            <SwiperSlide className="swiper-slide shadow-xl mb-10 mt-5  rounded-xl ">
+              <div className="flex flex-col  space-y-5">
+                <div className="rounded-t-xl max-h-36 group cursor-pointer relative flex justify-center items-center">
+                  <Image
+                    className="rounded-t-xl max-h-36 "
+                    src="../Mark_Zheng.jpg"
+                    alt="Mark Zheng"
+                  />
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide shadow-xl mb-10 mt-5 rounded-xl ">
-                <div className="flex flex-col  space-y-4">
-                  <div className="rounded-t-xl max-h-36 group cursor-pointer relative flex justify-center items-center">
-                    <img className="rounded-t-xl max-h-36 " src="Tony_lin.jpg" alt="Tony Lin" />
-                  </div>
-                  <div className="px-4 py-6 rounded-b-xl w-full flex justify-between  flex-col items-start ">
-                    <p className="mt-3 text-base font-semibold leading-none text-gray-800">Tony Lin</p>
-                    <button className="mt-6 hover:-translate-y-1 transition duration-500 ease-in-out flex justify-start items-center space-x-3">
-                   
-                    </button>
-                  </div>
+                <div className="px-4 py-6 rounded-b-xl w-full flex justify-between  flex-col items-start ">
+                  <p className="mt-3 text-base font-semibold leading-none text-gray-800">
+                    Mark Zheng
+                  </p>
+                  <button className="mt-6 hover:-translate-y-1 transition duration-500 ease-in-out flex justify-start items-center space-x-3"></button>
                 </div>
-              </SwiperSlide>
-              <SwiperSlide className="swiper-slide shadow-xl mb-10 mt-5  rounded-xl ">
-                <div className="flex flex-col  space-y-4">
-                  <div className="rounded-t-xl max-h-36 group cursor-pointer relative flex justify-center items-center">
-                    <img className="rounded-t-xl max-h-36 " src="../Dora_Wu.jpg" alt="Dora Wu" />
-                  </div>
-                  <div className="px-4 py-6 rounded-b-xl w-full flex justify-between  flex-col items-start ">
-                    
-                    <p className="mt-3 text-base font-semibold leading-none text-gray-800">Dora Wu</p>
-                    <button className="mt-6 hover:-translate-y-1 transition duration-500 ease-in-out flex justify-start items-center space-x-3">
-                   
-                    </button>
-                  </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide shadow-xl mb-10 mt-5 rounded-xl ">
+              <div className="flex flex-col  space-y-4">
+                <div className="rounded-t-xl max-h-36 group cursor-pointer relative flex justify-center items-center">
+                  <Image
+                    className="rounded-t-xl max-h-36 "
+                    src="Tony_lin.jpg"
+                    alt="Tony Lin"
+                  />
                 </div>
-              </SwiperSlide>
-            </Swiper>
-          </div>
+                <div className="px-4 py-6 rounded-b-xl w-full flex justify-between  flex-col items-start ">
+                  <p className="mt-3 text-base font-semibold leading-none text-gray-800">
+                    Tony Lin
+                  </p>
+                  <button className="mt-6 hover:-translate-y-1 transition duration-500 ease-in-out flex justify-start items-center space-x-3"></button>
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide className="swiper-slide shadow-xl mb-10 mt-5  rounded-xl ">
+              <div className="flex flex-col  space-y-4">
+                <div className="rounded-t-xl max-h-36 group cursor-pointer relative flex justify-center items-center">
+                  <Image
+                    className="rounded-t-xl max-h-36 "
+                    src="../Dora_Wu.jpg"
+                    alt="Dora Wu"
+                  />
+                </div>
+                <div className="px-4 py-6 rounded-b-xl w-full flex justify-between  flex-col items-start ">
+                  <p className="mt-3 text-base font-semibold leading-none text-gray-800">
+                    Dora Wu
+                  </p>
+                  <button className="mt-6 hover:-translate-y-1 transition duration-500 ease-in-out flex justify-start items-center space-x-3"></button>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
         </div>
+      </div>
 
-        <style>
-{`
+      <style>
+        {`
 .mainDiv {
 position: relative;
 width: 100%
@@ -237,11 +260,7 @@ width: 30%;
 
 
 `}
-
-</style>
-</div>
-
-
-
-  )
+      </style>
+    </div>
+  );
 }

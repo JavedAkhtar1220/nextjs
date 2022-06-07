@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "dingdong-93899"
-  }
+    "default": "masjid-92e12",
+    "staginh": "masjid-92e12"
+  },
+  "targets": {}
 }

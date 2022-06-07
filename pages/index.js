@@ -11,17 +11,17 @@ import Footer from "../components/Footer";
 
 
 export default function Home() {
-  
-/*   const router= useRouter();
-  useEffect(() =>{
-    let token = sessionStorage.getItem('Token')
-    if(!token){
-     router.push("/register")
-    }
- })
- const search = e => {
-   e.preventDefault();
- } */
+
+  /*   const router= useRouter();
+    useEffect(() =>{
+      let token = sessionStorage.getItem('Token')
+      if(!token){
+       router.push("/register")
+      }
+   })
+   const search = e => {
+     e.preventDefault();
+   } */
   return (
     <div className="items-center justify-center">
       <Head>
@@ -29,14 +29,14 @@ export default function Home() {
         <meta name="description" content="Real Estate Service Network" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
- {/*  <Navbar /> */}
- <Header className="" />
+      {/*  <Navbar /> */}
+      <Header className="" />
 
-        {/* Hero */}
-    <HeroSection className="w-" />
+      {/* Hero */}
+      <HeroSection className="w-" />
 
-        {/* Footer */}
-    <Footer className="flex items-center"/>
+      {/* Footer */}
+      <Footer className="flex items-center" />
 
     </div>
   )
